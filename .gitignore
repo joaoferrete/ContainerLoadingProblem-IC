@@ -17,7 +17,6 @@
 *.dll
 
 # Fortran module files
-*.mod
 *.smod
 
 # Compiled Static libraries
@@ -31,5 +30,7 @@
 *.out
 *.app
 
-Mod
-Graf
+01 - Sem Rotação/Mod
+02 - Entrada Melhorada - Sem Rotacao/Mod
+03 - Com Rotação/Mod
+04 - Alg Genético/Mod
