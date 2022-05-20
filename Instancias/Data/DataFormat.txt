@@ -1,0 +1,5 @@
+100 -- There are 100 instances in this file.
+1 -- The number of instances         2502505 -- A random varialbe, it is useless.
+587 -- The length of the container   233 -- The width of the container   220 -- The height of the container
+3 -- There are 3 kinds of boxes in this instance
+1 -- The number of box  108 -- The length of box  0 -- Indicator: this dimension can be vertical or not, 0 means forbidden, 1 means allowed  76 -- The width of the box  0 -- Indicator of width  30 -- The height of the box  1 -- Indicator of height  40 -- Available number of this kind of boxes  1 -- Priority of this kind of boxes
