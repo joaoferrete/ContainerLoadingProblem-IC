@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sfooterbr/Área de Trabalho/Faculdade/IC/Modelo C++/04 - Alg Genético'
+g++    -c -o Mod.o Mod.cpp
+g++ -std=c++11 -m64 -O3 -fPIC -fexceptions -DNDEBUG -DIL_STD -I/opt/ibm/ILOG/CPLEX_Studio201/cplex/include -I/opt/ibm/ILOG/CPLEX_Studio201/concert/include -o Mod Mod.o  -L/opt/ibm/ILOG/CPLEX_Studio201/cplex/lib/x86-64_linux/static_pic -lilocplex -lcplex -L/opt/ibm/ILOG/CPLEX_Studio201/concert/lib/x86-64_linux/static_pic -lconcert -m64 -lm -lpthread -ldl -lm -lGL -lGLU -lglut
+make: Leaving directory '/home/sfooterbr/Área de Trabalho/Faculdade/IC/Modelo C++/04 - Alg Genético'
+ 

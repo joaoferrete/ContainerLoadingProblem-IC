@@ -1,0 +1,432 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target '-lm', needed by 'Mod'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri May 20 00:36:05 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# makefile (from 'Makefile', line 1)
+SYSTEM = x86-64_linux
+# makefile (from 'Makefile', line 23)
+OBJDIR = obj
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8035d25c-14f6-4349-882c-e60a86a5b731.sock
+# makefile (from 'Makefile', line 5)
+COMP = g++ -c
+# environment
+MANDATORY_PATH = /usr/share/gconf/pop.mandatory.path
+# environment
+VSCODE_CWD = /home/sfooterbr
+# environment
+WINDOWPATH = 2
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/sfooterbr/Área de Trabalho/Faculdade/IC/Modelo C++/04 - Alg Genético
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/usr/share/gnome:/home/sfooterbr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/sfooterbr/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 11)
+CCOPT = -std=c++11 -m64 -O3 -fPIC -fexceptions -DNDEBUG -DIL_STD
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/sfooterbr/Área de Trabalho/Faculdade/IC/Modelo C++/04 - Alg Genético
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = pop
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 18)
+CCLNFLAGS = -L$(CPLEXLIBDIR) -lilocplex -lcplex -L$(CONCERTLIBDIR) -lconcert -m64 -lm -lpthread -ldl
+# makefile (from 'Makefile', line 7)
+CPLEXDIR = /opt/ibm/ILOG/CPLEX_Studio201/cplex
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 5701
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 27)
+CCFLAGS = $(CCOPT) -I$(CPLEXINCDIR) -I$(CONCERTINCDIR)
+# environment
+SESSION_MANAGER = local/anonymouspc:@/tmp/.ICE-unix/2579,unix/anonymouspc:/tmp/.ICE-unix/2579
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 15)
+CPLEXJARDIR = $(CPLEXDIR)/lib/cplex.jar
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"74ce6549a467d1dfaba55fb5394742c9.pt-br","_translationsConfigFile":"/home/sfooterbr/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/tcf.json","_cacheRoot":"/home/sfooterbr/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br","_resolvedLanguagePackCoreLocation":"/home/sfooterbr/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/sfooterbr/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 2)
+LIBFORMAT = static_pic
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = B3HYLtdvQH2JqqjSPhprKlQniWLaT3OP4fRor9DvtdXStUNEd0NU
+# environment
+PATH = /home/sfooterbr/.local/bin:/usr/local/lib/nodejs/node-v16.15.0-linux-x64/bin:/home/sfooterbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sfooterbr/.config/composer/vendor/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/sfooterbr/snap/code/common
+# environment
+SNAP = /snap/code/97
+# makefile (from 'Makefile', line 10)
+CCC = g++
+# environment
+INVOCATION_ID = db8dcdbc82c04f279eaf9e3e1b2ddfa6
+# environment
+SNAP_REVISION = 97
+# environment
+SNAP_REAL_HOME = /home/sfooterbr
+# makefile (from 'Makefile', line 20)
+CONCERTINCDIR = $(CONCERTDIR)/include
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = sfooterbr
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'Makefile', line 16)
+CPLEXLIBDIR = $(CPLEXDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE = ibus
+# makefile (from 'Makefile', line 25)
+OBJ_PRJ = Mod.o
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = pop
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 14)
+CPLEXBINDIR = $(CPLEXDIR)/bin/$(BINDIST)
+# makefile (from 'Makefile', line 29)
+EXECUTAVEL = Mod
+# environment
+LOGNAME = sfooterbr
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2616
+# environment
+DISPLAY = :1
+# environment
+USER = sfooterbr
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+DEFAULTS_PATH = /usr/share/gconf/pop.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+SNAP_CONTEXT = B3HYLtdvQH2JqqjSPhprKlQniWLaT3OP4fRor9DvtdXStUNEd0NU
+# environment
+MANAGERPID = 2370
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5655
+# environment
+_ = /snap/code/97/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 8)
+CONCERTDIR = /opt/ibm/ILOG/CPLEX_Studio201/concert
+# makefile (from 'Makefile', line 21)
+CPLEXINCDIR = $(CPLEXDIR)/include
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'Makefile', line 17)
+CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/sfooterbr/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# makefile (from 'Makefile', line 12)
+OpenGL = -lm -lGL -lGLU -lglut
+# environment
+JOURNAL_STREAM = 8:38084
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/sfooterbr
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 4)
+OPTIONS = -O3 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9fef6b32-1.67.2-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# makefile (from 'Makefile', line 22)
+SRCDIR = 
+# default
+.RECIPEPREFIX := 
+ 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = c3511e6c
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+SNAP_USER_DATA = /home/sfooterbr/snap/code/97
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = pop
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=10/182=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2051, inode 35667070): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+Modelo.o: Mod.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	$(CCC) -c $(CCFLAGS) $(OpenGL) Mod.cpp -o Mod.o 
+
+# Not a target:
+-lGLU:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 22:33:59.517638486
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	rm -f *.o
+	rm -f *~
+	rm Mod
+
+# Not a target:
+Mod.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 00:21:00.3184729
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Mod.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+-lglut:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Mod: Mod.o -lm -lGL -lGLU -lglut
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-20 00:21:01.270473933
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	$(CCC) $(CCFLAGS) -o $(EXECUTAVEL) $(OBJ_PRJ) $(OBJ_LIB) $(CCLNFLAGS) $(OpenGL)
+
+# Not a target:
+-lm:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Mod
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run: Mod
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	./$(EXECUTAVEL) -opengl
+
+# Not a target:
+-lGL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+terminal: Mod
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	./$(EXECUTAVEL)
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=1/36=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 159 B / avg = 7 B
+# current buf: size = 8162 B / used = 159 B / count = 22 / avg = 7 B
+
+# strcache performance: lookups = 39 / hit rate = 43%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=0/39=0%
+# Finished Make data base on Fri May 20 00:36:06 2022
+
+ 
